@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Find Kanata</title>
+	<style>
+		body {
+			background-image: url("pptdasai.jpg");
+			background-repeat: repeat;
+		}	
+	</style>	
+	<script>
+let h = parseInt(window.innerHeight,10)-128;
+let w = parseInt(window.innerWidth,10)-128;
+function add_image(lnk){
+	img = document.createElement("img");
+	img.src=lnk;
+	img.style.position='absolute';
+	let y = Math.floor(Math.random()*h);
+	let x = Math.floor(Math.random()*w);
+	img.style.top=y+'px';
+	img.style.left=x+'px';
+	document.body.appendChild(img);
+}
+function init(){
+	for(let i=0; i<32; i++){
+		add_image("kanataso120.gif");
+		add_image("kanataso420.gif");
+		add_image("kanataso200.gif");
+		add_image("kanataso660.gif");
+	}
+	add_image("kanatasoreal.gif");
+	for(let i=0; i<32; i++){
+		add_image("kanataso120.gif");
+		add_image("kanataso420.gif");
+		add_image("kanataso200.gif");
+		add_image("kanataso660.gif");
+	}
+}
+		</script>
+	</head>
+	<body onload="init();">
+	<audio loop autoplay>
+  	<source src="souran.m4a">
+	</audio>
+	</body>
+</html>
+
