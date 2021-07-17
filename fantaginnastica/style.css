@@ -2,6 +2,21 @@ body {
 	background-color: #EAF7FB;
 	font-size: 18px;
 	margin: 0;
+	font-family: Calibri, sans-serif;
+}
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+.title {
+	color: #000066;
+	text-align: center;
+	text-decoration: none;
+	font-size: 5vw;
 }
 
 nav {
@@ -12,32 +27,36 @@ nav {
 	position: -webkit-sticky;
 	position: sticky;
 	min-width: 100%;
-	display: flex;
-	border-bottom: 4px solid #23819C;
+	display: inline-flex;
+	border-bottom: 2px solid #000066;
 	z-index: 8;
 }
 
-nav a {
+nav p {
+	display: inline;
 	color: black;
-	display: inline-flex;
 	text-align: center;
-	padding: 14px 16px;
+	padding: 0.5% 0.5%;
+	margin: 0;
+	width: 24vw;
 	text-decoration: none;
-	border-right: 4px solid #23819C;
+	border-right: 2px solid #000066;
 }
 
-nav a:hover {
+nav p:hover {
 	background-color: #23819C;
 	color: white;
 }
 
-.content {
+#content {
 	padding: 20px;
 }
 
 table {
 	border-collapse: collapse;
 	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 table td, table th {
@@ -58,24 +77,35 @@ table th {
 	text-align: left;
 }
 
-#athletes table tr:not(:nth-child(1)) td:nth-child(5) {
+#athletes table tr:not(:nth-child(1)) td:nth-child(5),
+#athletes table tr:not(:nth-child(1)) td:nth-child(6) {
 	padding: 0;
 	margin: 0;
 	text-align: center;
 }
-input[type=checkbox]
+input
 {
-  /* Double-sized Checkboxes */
+	/* Double-sized Checkboxes */
 	padding: 0;
 	margin: 0;
-  -ms-transform: scale(2); /* IE */
-  -moz-transform: scale(2); /* FF */
-  -webkit-transform: scale(2); /* Safari and Chrome */
-  -o-transform: scale(2); /* Opera */
-  transform: scale(2);
+	-ms-transform: scale(2); /* IE */
+	-moz-transform: scale(2); /* FF */
+	-webkit-transform: scale(2); /* Safari and Chrome */
+	-o-transform: scale(2); /* Opera */
+	transform: scale(2);
 }
 
-iframe {
+#rules iframe {
+	font-family: Arial sans-serif;
+	width: 80%;
+	height: 800px;
+	overflow: hidden;
+	/*margin: 0;*/
+	padding: 0;
+	border: none;
+}
+
+#athletes iframe {
 	/*min-height:500px;*/
 	overflow: hidden;
 	min-width: 50%;
@@ -83,3 +113,43 @@ iframe {
 	padding: 0;
 	border: none;
 }
+
+@media screen and (max-width: 600px) {
+	.center {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 100%;
+	}
+	body {
+		font-size: 4vw;
+		margin: 0;
+		padding: 0;
+	}
+	#content {
+		padding: 0;
+		margin: 0;
+	}
+	#rules iframe {
+		width: 100%;
+	}
+	td {
+		max-width: 17vw;
+	}
+	nav {
+		display: block;
+	}
+	nav p{
+		display: list-item;
+		list-style: none;
+		width: 100vw;
+		padding: 0;
+		margin: 0;
+		border: 0;
+		border-top: 2px solid #000066;
+	}
+	.title {
+		font-size: 8vw;
+	}
+}
+
