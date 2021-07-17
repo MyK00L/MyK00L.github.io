@@ -208,12 +208,11 @@ function create_athlete_table() {
 
 function calc_score(team) {
 	if(check_team(team)[0]) {
-		return -1;
+		return -123456;
 	}
-	let ans = team[0].price;
+	let ans = team[0].score;
 	for(let i=0; i<team.length; i++){
-		// ans += team[i].score;
-		ans += team[i].price;
+		ans += team[i].score;
 	}
 	return ans;
 }
