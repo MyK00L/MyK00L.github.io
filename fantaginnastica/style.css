@@ -135,9 +135,9 @@ input
 	#rules iframe {
 		width: 100%;
 	}
-	td {
+	/*td {
 		max-width: 17vw;
-	}
+	}*/
 	nav {
 		display: block;
 	}
@@ -157,7 +157,6 @@ input
 	}
 	input
 	{
-		/* Double-sized Checkboxes */
 		padding: 0;
 		margin: 0;
 		-ms-transform: scale(4); /* IE */

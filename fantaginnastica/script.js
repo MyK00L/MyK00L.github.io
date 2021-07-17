@@ -144,7 +144,7 @@ function create_athlete_table() {
 
 		td0.appendChild(document.createTextNode("Naz"));
 		td1.appendChild(document.createTextNode("Nome"));
-		td2.appendChild(document.createTextNode("C"));
+		td2.appendChild(document.createTextNode("Prezzo"));
 		td3.appendChild(document.createTextNode("Sq"));
 		td4.appendChild(document.createTextNode("Cap"));
 
