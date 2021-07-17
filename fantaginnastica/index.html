@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html lang="it">
+	<head>
+		<title>FantaGinnastica</title>
+		<meta charset="UTF-8" />
+		<link rel="stylesheet" href="style.css" />
+		<script src="toform.js"></script>
+		<script src="athletes.js"></script>
+		<script src="submissions.js"></script>
+		<script src="script.js"></script>
+	</head>
+	<body onload="setup();">
+		<nav>
+			<a href="#top">Top</a>
+			<a href="#team">Atleti</a>
+			<a href="#scoreboard">Classifica</a>
+			<a href="#faq">FAQ</a>
+		</nav>
+		<div class="content">
+			<div id="top">
+				<hr/>
+				<h2>Come funziona:</h2>
+				<p>Hai 120 Comaneci per creare la tua squadra.<br/>
+				Una squadra deve essere composta da: 4 ginnaste in squadra e 2 ginnaste individualiste.<br/>
+				Non si puo' avere piu di un atleta dalla stessa nazione in squadra.<br/></p>
+			</div>
+			<div id="team">
+				<hr/>
+				<h2>Crea una squadra</h2>
+				<div id="athletes">
+				</div>
+				<p id="team-creation-message"></p>
+				<p>Una volta che siete sicuri della vostra squadra:<br />
+				scegliete un nome e inseritelo qui sotto<br />
+				copiate qui sotto l'ID che vi viene fornito,<br />
+				e clicchate "Invia".<p/>
+				<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSexQ0853ebfptygrACRmAGkbPfqKkRx5TM-Lnx6ZuGC504Mqg/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0" scrolling="no" height="530px">Loading…</iframe>
+			</div>
+			<div id="scoreboard">
+				<hr />
+				<h2>Classifica</h2>
+				<div id="scoreboard-display"></div>
+			</div>
+			<div id="faq">
+			</div>
+		</div>
+	</body>
+</html>
