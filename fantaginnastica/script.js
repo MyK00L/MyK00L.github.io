@@ -86,10 +86,12 @@ function recalc_checkboxes(){
 	const checked = document.querySelectorAll('input[name="athlete-checkbox"]:checked');
 	let leader = null;
 	let leader_box = document.querySelector('input[name="leader-radio"]:checked');
+	let leader_bad = false;
 	if(leader_box != null) {
 		leader = ath[parseInt(leader_box.value)];
 	} else {
-		document.getElementById("team-creation-message").innerHTML = "Nessun membro della squadra e' stato selezionato come capitano";
+		leader_bad = true;
+		//document.getElementById("team-creation-message").innerHTML = "Nessun membro della squadra e' stato selezionato come capitano";
 	}
 	let team = [];
 	let ld = [];
@@ -97,20 +99,30 @@ function recalc_checkboxes(){
 		team.push(ath[parseInt(checkbox.value)]);
 	});
 
-	let leader_found = false;
-	for(let i=0; i<team.length; i++){
-		if(team[i].id==leader.id){
-			[team[0],team[i]] = [team[i],team[0]];
-			leader_found = true;
+	if(leader != null) {
+		let leader_found = false;
+		for(let i=0; i<team.length; i++){
+			if(team[i].id==leader.id){
+				[team[0],team[i]] = [team[i],team[0]];
+				leader_found = true;
+			}
 		}
-	}
-	if(leader_found == false){
-		team.unshift(leader);
+		if(leader_found == false){
+			team.unshift(leader);
+		}
 	}
 
 	let a = check_team(team);
 	let bad = a[0];
 	let message = a[1];
+	
+	if(leader_bad){
+		if(bad){
+			message += "Nessun membro della squadra e' stato selezionato come capitano.<br/>\n";
+		} else {
+			message = "Nessun membro della squadra e' stato selezionato come capitano.<br/>\n";
+		}
+	}
 
 	document.getElementById("team-creation-message").innerHTML = message;
 }
