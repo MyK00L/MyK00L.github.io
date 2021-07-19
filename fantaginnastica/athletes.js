@@ -94,7 +94,7 @@ const ath =
 			"country": "CANADA",
 			"name": "Ellie Black",
 			"price": 28,
-			"score": 0,
+			"score": 50,
 			"id": 11,
 			"category": 0
 		},
@@ -110,7 +110,7 @@ const ath =
 			"country": "CANADA",
 			"name": "Ava Stewert",
 			"price": 25,
-			"score": 0,
+			"score": -50,
 			"id": 13,
 			"category": 0
 		},
@@ -150,7 +150,7 @@ const ath =
 			"country": "ITALIA",
 			"name": "Vanessa Ferrari",
 			"price": 22,
-			"score": 0,
+			"score": 50,
 			"id": 18,
 			"category": 0
 		},
@@ -302,7 +302,7 @@ const ath =
 			"country": "OLANDA",
 			"name": "Sanne Wevers",
 			"price": 13,
-			"score": 0,
+			"score": 50,
 			"id": 37,
 			"category": 0
 		},
@@ -318,7 +318,7 @@ const ath =
 			"country": "GERMANIA",
 			"name": "Elisabeth Seitz",
 			"price": 12,
-			"score": 0,
+			"score": 50,
 			"id": 39,
 			"category": 0
 		},
@@ -382,7 +382,7 @@ const ath =
 			"country": "OLANDA",
 			"name": "Lieke Wevers",
 			"price": 5,
-			"score": 0,
+			"score": 50,
 			"id": 47,
 			"category": 0
 		},
@@ -470,7 +470,7 @@ const ath =
 			"country": "SVIZZERA",
 			"name": "Steingruber Giulia",
 			"price": 13,
-			"score": 0,
+			"score": 50,
 			"id": 58,
 			"category": 1
 		},
@@ -534,7 +534,7 @@ const ath =
 			"country": "SVEZIA",
 			"name": "Adlerteg Jonna",
 			"price": 8,
-			"score": 0,
+			"score": 50,
 			"id": 66,
 			"category": 1
 		},
@@ -598,7 +598,7 @@ const ath =
 			"country": "MALAYSIA",
 			"name": "Abdul Hadi Farah Ann",
 			"price": 5,
-			"score": 0,
+			"score": 50,
 			"id": 74,
 			"category": 1
 		},
@@ -654,7 +654,7 @@ const ath =
 			"country": "JAMAICA",
 			"name": "Francis Danusia",
 			"price": 3,
-			"score": 0,
+			"score": 50,
 			"id": 81,
 			"category": 1
 		},
@@ -718,7 +718,7 @@ const ath =
 			"country": "UZBEKISTAN",
 			"name": "Chusovitina Oksana",
 			"price": 3,
-			"score": 0,
+			"score": 50,
 			"id": 89,
 			"category": 1
 		},
