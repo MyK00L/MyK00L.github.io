@@ -1,0 +1,15 @@
+const subs = [
+	// { "name":"nome", "id":"0123456789ab" },
+	{ "name":"TIK TOKyo", "id":"0b10212d303a" },
+	{ "name":"Casella levati", "id":"001123254159" },
+	{ "name":"La dura legge di Simone", "id":"000d2d2e3660" },
+	{ "name":"Fantarstica", "id":"020e142e3160" },
+	{ "name":"Le idi di Maggio", "id":"0c141516324c" },
+	{ "name":"Le Directioner 🤸🏻‍♂️", "id":"020111274a56" },
+	{ "name":"Ruttyni Scarsini", "id":"0001232f6061" },
+	{ "name":"Giadins_", "id":"15071624373a" },
+	{ "name":"Sara", "id":"001d2b2f3251" },
+	{ "name":"Susine asimmetriche", "id":"020715254243" },
+	{ "name":"Bilesiamo in testa", "id":"001b21274344" },
+	{ "name":"All'alba vinceremo", "id":"0012142f4359" },
+];

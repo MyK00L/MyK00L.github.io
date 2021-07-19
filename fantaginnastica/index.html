@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html lang="it">
+	<head>
+		<title>FantaGinnastica</title>
+		<meta charset="UTF-8" />
+		<link rel="stylesheet" href="style.css" />
+		<script src="athletes.js"></script>
+		<script src="submissions.js"></script>
+		<script src="script.js"></script>
+	</head>
+	<body onload="setup();">
+		<nav>
+			<p onclick="setpage('home');">Home</p>
+			<p onclick="setpage('rules');">Regolamento</p>
+			<p onclick="setpage('team');">Crea la tua squadra</p>
+			<p onclick="setpage('scoreboard');">Classifica</p>
+		</nav>
+		<div id="content">
+			<div id="home">
+				<p class="title">FANTA<b>GINNASTICA</b></p>
+				<img src="https://upload.wikimedia.org/wikipedia/commons/5/5c/Olympic_rings_without_rims.svg?download" class="center" style="opacity:0.5" />
+			</div>
+			<div id="rules" style="display:none">
+				<p class="title">REGOLAMENTO</p>
+				<iframe src="FANTAOLIMPIADI.html" class="center"></iframe>
+				<!--<iframe src="FANTAOLIMPIADI.pdf" class="center"></iframe>-->
+			</div>
+			<div id="team" style="display:none">
+				<p class="title">CREA LA TUA SQUADRA</p>
+				<p style="text-align:center" class="center">
+				Ogni partecipante dovrà comporre una squadra utilizzando al massimo 120 “Comaneci”. Le squadre devono essere composte da 4 componenti delle squadre e da 2 individualiste. È possibile scegliere solamente 1 ginnasta per ogni nazione.<br/>
+				Ogni partecipante dovrà scegliere il capitano della propria squadra. Il capitano riceve il doppio dei “punti classifica” nelle finali di squadra, AA e di specialità.<br/>
+				</p>
+				<p style="text-align:center">Ginnaste in squadra<p/>
+				<table><tbody id="atable0"></tbody></table>
+				<p style="text-align:center">Ginnaste individualiste<p/>
+				<table><tbody id="atable1"></tbody></table>
+				<p style="text-align:center;font-weight:bold;color:#b30000;" class="center" id="team-creation-message"></p>
+				<p style="text-align:center" class="center">Una volta che siete sicuri della vostra squadra:<br />
+				<p/>
+				<ol style="text-align:center" class="center">
+					<li>scegliete il nome della vostra squadra e inseritelo qui sotto</li>
+					<li>copiate l'ID che vi viene fornito, e inseritelo qui sotto</li>
+					<li>e clicchate "Invia".</li>
+				</ol>
+				<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSexQ0853ebfptygrACRmAGkbPfqKkRx5TM-Lnx6ZuGC504Mqg/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0" scrolling="no" height="530px" class="center">Loading…</iframe>
+			</div>
+			<div id="scoreboard" style="display:none">
+				<p class="title">CLASSIFICA</p>
+				<div id="scoreboard-display"></div>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,169 @@
+body {
+	background-color: #EAF7FB;
+	font-size: 18px;
+	margin: 0;
+	font-family: Calibri, sans-serif;
+}
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+.title {
+	color: #000066;
+	text-align: center;
+	text-decoration: none;
+	font-size: 5vw;
+}
+
+nav {
+	margin: 0;
+	padding: 0;
+	background-color: #C9EAF3;
+	top: 0;
+	position: -webkit-sticky;
+	position: sticky;
+	min-width: 100%;
+	display: inline-flex;
+	border-bottom: 2px solid #000066;
+	z-index: 8;
+}
+
+nav p {
+	display: inline;
+	color: black;
+	text-align: center;
+	padding: 0.5% 0.5%;
+	margin: 0;
+	width: 24vw;
+	text-decoration: none;
+	border-right: 2px solid #000066;
+}
+
+nav p:hover {
+	background-color: #23819C;
+	color: white;
+}
+
+#content {
+	padding: 20px;
+}
+
+table {
+	border-collapse: collapse;
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+table td, table th {
+	border: 4px solid #EAF7FB;
+	padding: 8px;
+	text-align: center;
+  vertical-align: middle;
+}
+table tr {
+	background-color: #B8E2EF;
+}
+
+table tr:nth-child(even){
+	background-color: #A5DBEB;
+}
+
+table th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+}
+
+#athletes table tr:not(:nth-child(1)) td:nth-child(5),
+#athletes table tr:not(:nth-child(1)) td:nth-child(6) {
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+input
+{
+	/* Double-sized Checkboxes */
+	padding: 0;
+	margin: 0;
+	-ms-transform: scale(2); /* IE */
+	-moz-transform: scale(2); /* FF */
+	-webkit-transform: scale(2); /* Safari and Chrome */
+	-o-transform: scale(2); /* Opera */
+	transform: scale(2);
+}
+
+#rules iframe {
+	font-family: Arial sans-serif;
+	width: 80%;
+	height: 800px;
+	overflow: hidden;
+	/*margin: 0;*/
+	padding: 0;
+	border: none;
+}
+
+#athletes iframe {
+	/*min-height:500px;*/
+	overflow: hidden;
+	min-width: 50%;
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+@media only screen and (orientation: portrait) {
+	.center {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 100%;
+	}
+	body {
+		font-size: 4vw;
+		margin: 0;
+		padding: 0;
+	}
+	#content {
+		padding: 0;
+		margin: 0;
+	}
+	#rules iframe {
+		width: 100%;
+	}
+	/*td {
+		max-width: 17vw;
+	}*/
+	nav {
+		display: block;
+	}
+	nav p{
+		display: list-item;
+		list-style: none;
+		width: 100vw;
+		padding: 0;
+		padding-top: 1vh;
+		padding-bottom: 1vh;
+		margin: 0;
+		border: 0;
+		border-top: 2px solid #000066;
+	}
+	.title {
+		font-size: 8vw;
+	}
+	input
+	{
+		padding: 0;
+		margin: 0;
+		-ms-transform: scale(4); /* IE */
+		-moz-transform: scale(4); /* FF */
+		-webkit-transform: scale(4); /* Safari and Chrome */
+		-o-transform: scale(4); /* Opera */
+		transform: scale(4);
+	}
+}
+
