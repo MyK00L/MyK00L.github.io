@@ -94,7 +94,7 @@ const ath =
 			"country": "CANADA",
 			"name": "Ellie Black",
 			"price": 28,
-			"score": 50+35,
+			"score": 50-50+10,
 			"id": 11,
 			"category": 0
 		},
@@ -382,7 +382,7 @@ const ath =
 			"country": "OLANDA",
 			"name": "Lieke Wevers",
 			"price": 5,
-			"score": 50+10,
+			"score": 50+55,
 			"id": 47,
 			"category": 0
 		},
