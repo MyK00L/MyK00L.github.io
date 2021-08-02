@@ -22,7 +22,7 @@ const ath =
 			"country": "USA",
 			"name": "Sunisa Lee",
 			"price": 37,
-			"score": 105+90+20,
+			"score": 105+90+20+120+40,
 			"id": 2,
 			"category": 0
 		},
@@ -62,7 +62,7 @@ const ath =
 			"country": "RUSSIA",
 			"name": "Angelina Melnikova",
 			"price": 33,
-			"score": 120+100,
+			"score": 120+100+95,
 			"id": 7,
 			"category": 0
 		},
@@ -142,7 +142,7 @@ const ath =
 			"country": "BELGIO",
 			"name": "Nina Derwael",
 			"price": 23,
-			"score": 65-10,
+			"score": 65-10+20,
 			"id": 17,
 			"category": 0
 		},
@@ -174,7 +174,7 @@ const ath =
 			"country": "INGHILTERRA",
 			"name": "Jessica Gadirova",
 			"price": 20,
-			"score": 55+25,
+			"score": 55+25+20,
 			"id": 21,
 			"category": 0
 		},
@@ -182,7 +182,7 @@ const ath =
 			"country": "ITALIA",
 			"name": "Martina Maggio",
 			"price": 20,
-			"score": 30+60,
+			"score": 30+60-5,
 			"id": 22,
 			"category": 0
 		},
@@ -222,7 +222,7 @@ const ath =
 			"country": "ITALIA",
 			"name": "Alice D'Amato",
 			"price": 18,
-			"score": 30+15,
+			"score": 30+15-30,
 			"id": 27,
 			"category": 0
 		},
@@ -270,7 +270,7 @@ const ath =
 			"country": "SPAGNA",
 			"name": "Roxana Popa",
 			"price": 13,
-			"score": -5,
+			"score": -5-30,
 			"id": 33,
 			"category": 0
 		},
@@ -286,7 +286,7 @@ const ath =
 			"country": "CANADA",
 			"name": "Brooklyn Moors",
 			"price": 13,
-			"score": 10,
+			"score": 10+55,
 			"id": 35,
 			"category": 0
 		},
@@ -294,7 +294,7 @@ const ath =
 			"country": "GERMANIA",
 			"name": "Sarah Voss",
 			"price": 13,
-			"score": 5+10,
+			"score": 5+10+15,
 			"id": 36,
 			"category": 0
 		},
@@ -318,7 +318,7 @@ const ath =
 			"country": "GERMANIA",
 			"name": "Elisabeth Seitz",
 			"price": 12,
-			"score": 50+115,
+			"score": 50+115+75,
 			"id": 39,
 			"category": 0
 		},
@@ -382,7 +382,7 @@ const ath =
 			"country": "OLANDA",
 			"name": "Lieke Wevers",
 			"price": 5,
-			"score": 50+55,
+			"score": 50+55-15,
 			"id": 47,
 			"category": 0
 		},
@@ -406,7 +406,7 @@ const ath =
 			"country": "BRASILE",
 			"name": "Andrade Rebeca",
 			"price": 27,
-			"score": 75,
+			"score": 75+60,
 			"id": 50,
 			"category": 1
 		},
@@ -446,7 +446,7 @@ const ath =
 			"country": "UNGHERIA",
 			"name": "Kovacs Zsofia",
 			"price": 18,
-			"score": 35,
+			"score": 35+20,
 			"id": 55,
 			"category": 1
 		},
@@ -470,7 +470,7 @@ const ath =
 			"country": "SVIZZERA",
 			"name": "Steingruber Giulia",
 			"price": 13,
-			"score": 50+5,
+			"score": 50+5+20,
 			"id": 58,
 			"category": 1
 		},
