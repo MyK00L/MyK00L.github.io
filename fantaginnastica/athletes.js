@@ -22,7 +22,7 @@ const ath =
 			"country": "USA",
 			"name": "Sunisa Lee",
 			"price": 37,
-			"score": 105+90+20+120+40,
+			"score": 105+90+20+120+40+5+10,
 			"id": 2,
 			"category": 0
 		},
@@ -62,7 +62,7 @@ const ath =
 			"country": "RUSSIA",
 			"name": "Angelina Melnikova",
 			"price": 33,
-			"score": 120+100+95,
+			"score": 120+100+95+50-35,
 			"id": 7,
 			"category": 0
 		},
@@ -142,7 +142,7 @@ const ath =
 			"country": "BELGIO",
 			"name": "Nina Derwael",
 			"price": 23,
-			"score": 65-10+20,
+			"score": 65-10+20+60,
 			"id": 17,
 			"category": 0
 		},
@@ -166,7 +166,7 @@ const ath =
 			"country": "RUSSIA",
 			"name": "Akhaimova Lilia",
 			"price": 22,
-			"score": 40+50,
+			"score": 40+50+15,
 			"id": 20,
 			"category": 0
 		},
@@ -318,7 +318,7 @@ const ath =
 			"country": "GERMANIA",
 			"name": "Elisabeth Seitz",
 			"price": 12,
-			"score": 50+115+75,
+			"score": 50+115+75+50,
 			"id": 39,
 			"category": 0
 		},
@@ -390,7 +390,7 @@ const ath =
 			"country": "USA",
 			"name": "Skinner Mykayla",
 			"price": 35,
-			"score": 10,
+			"score": 10+135,
 			"id": 48,
 			"category": 1
 		},
@@ -406,7 +406,7 @@ const ath =
 			"country": "BRASILE",
 			"name": "Andrade Rebeca",
 			"price": 27,
-			"score": 75+60,
+			"score": 75+60+115,
 			"id": 50,
 			"category": 1
 		},
@@ -542,7 +542,7 @@ const ath =
 			"country": "CINA",
 			"name": "Fan Yilin",
 			"price": 8,
-			"score": 65,
+			"score": 65-25,
 			"id": 67,
 			"category": 1
 		},
@@ -550,7 +550,7 @@ const ath =
 			"country": "RUSSIA",
 			"name": "Ilyankova Anastasia",
 			"price": 8,
-			"score": 50,
+			"score": 50+100,
 			"id": 68,
 			"category": 1
 		},
