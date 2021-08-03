@@ -6,7 +6,7 @@ const ath =
 			"country": "USA",
 			"name": "Simone Biles",
 			"price": 60,
-			"score": 85+25+20,
+			"score": 85+25+20+90+10,
 			"id": 0,
 			"category": 0
 		},
@@ -22,7 +22,7 @@ const ath =
 			"country": "USA",
 			"name": "Sunisa Lee",
 			"price": 37,
-			"score": 105+90+20+120+40+5+10,
+			"score": 105+90+20+120+40+5+10+15,
 			"id": 2,
 			"category": 0
 		},
@@ -62,7 +62,7 @@ const ath =
 			"country": "RUSSIA",
 			"name": "Angelina Melnikova",
 			"price": 33,
-			"score": 120+100+95+50-35,
+			"score": 120+100+95+50-35+15,
 			"id": 7,
 			"category": 0
 		},
@@ -94,7 +94,7 @@ const ath =
 			"country": "CANADA",
 			"name": "Ellie Black",
 			"price": 28,
-			"score": 50-50+10,
+			"score": 50-50+10+85+5,
 			"id": 11,
 			"category": 0
 		},
@@ -150,7 +150,7 @@ const ath =
 			"country": "ITALIA",
 			"name": "Vanessa Ferrari",
 			"price": 22,
-			"score": 50+65+10,
+			"score": 50+65+10+35,
 			"id": 18,
 			"category": 0
 		},
@@ -174,7 +174,7 @@ const ath =
 			"country": "INGHILTERRA",
 			"name": "Jessica Gadirova",
 			"price": 20,
-			"score": 55+25+20,
+			"score": 55+25+20+15,
 			"id": 21,
 			"category": 0
 		},
@@ -294,7 +294,7 @@ const ath =
 			"country": "GERMANIA",
 			"name": "Sarah Voss",
 			"price": 13,
-			"score": 5+10+15,
+			"score": 5+10+15-5,
 			"id": 36,
 			"category": 0
 		},
@@ -398,7 +398,7 @@ const ath =
 			"country": "ROMANIA",
 			"name": "Iordache Larisa",
 			"price": 28,
-			"score": -100+50,
+			"score": -100+15,
 			"id": 49,
 			"category": 1
 		},
@@ -406,7 +406,7 @@ const ath =
 			"country": "BRASILE",
 			"name": "Andrade Rebeca",
 			"price": 27,
-			"score": 75+60+115,
+			"score": 75+60+115+30,
 			"id": 50,
 			"category": 1
 		},
@@ -438,7 +438,7 @@ const ath =
 			"country": "BRASILE",
 			"name": "Saravia Flavia",
 			"price": 20,
-			"score": -100+20,
+			"score": -100+20-10,
 			"id": 54,
 			"category": 1
 		},
